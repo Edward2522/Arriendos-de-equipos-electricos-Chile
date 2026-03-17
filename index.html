@@ -1,45 +1,187 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
 <meta charset="UTF-8">
-<title>Arriendos de Equipos Eléctricos</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HF Arriendo de equipos electricos Chile </title>
+
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+header {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+h1 { margin: 0; }
+
+.container {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+}
+
+.precio {
+  color: green;
+  font-weight: bold;
+}
+
+/* WhatsApp flotante */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 22px;
+  text-decoration: none;
+}
+</style>
 </head>
 
-<body style="font-family: Arial; margin:40px;">
+<body>
 
-<h1>Arriendos de Equipos Eléctricos</h1>
+<header>
+  <h1>Arriendo de Equipos Eléctricos</h1>
+  <p>Concepción - Coronel - San Pedro</p>
+</header>
 
-<p>
-Ofrecemos arriendo de herramientas eléctricas para construcción,
-reparaciones y trabajos del hogar.
-</p>
+<div class="container">
 
-<h2>Equipos disponibles</h2>
+<!-- EQUIPOS -->
 
-<ul>
-<li>Taladro demoledor</li>
-<li>Generador eléctrico</li>
-<li>Sierra circular</li>
-<li>Esmeril angular</li>
-<li>Rotomartillo</li>
-</ul>
+<div class="card">
+<img src="https://i.imgur.com/0Z8FQ2v.jpg">
+<h3>Micro-ohmímetro</h3>
+<p>AEMC 6250</p>
+<p class="precio">$50.000/día</p>
+</div>
 
-<h2>Cómo arrendar</h2>
+<div class="card">
+<img src="https://i.imgur.com/5g0XK6H.jpg">
+<h3>Micro-ohmímetro industrial</h3>
+<p>Megger DLRO200</p>
+<p class="precio">$100.000/día</p>
+</div>
 
-<ol>
-<li>Elige el equipo que necesitas</li>
-<li>Contáctanos por WhatsApp</li>
-<li>Coordinamos retiro o entrega</li>
-<li>Realiza el pago del arriendo</li>
-</ol>
+<div class="card">
+<img src="https://i.imgur.com/9GfZ4kT.jpg">
+<h3>Megóhmetro industrial</h3>
+<p>Metrel TeraOhm 5kV</p>
+<p class="precio">$60.000/día</p>
+</div>
 
-<h2>Contacto</h2>
+<div class="card">
+<img src="https://i.imgur.com/YmZK8pT.jpg">
+<h3>Equipo VLF Hipot</h3>
+<p>Alta tensión</p>
+<p class="precio">$120.000/día</p>
+</div>
 
-<p>WhatsApp: +56 9 XXXXXXXX</p>
-<p>Ubicación: Coronel - Concepción</p>
+<div class="card">
+<img src="https://i.imgur.com/1P6L3sA.jpg">
+<h3>Analizador solar</h3>
+<p>HT I-V600</p>
+<p class="precio">$80.000/día</p>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/EXAMPLE1.jpg">
+<h3>Pinza amperimétrica</h3>
+<p>Fluke 376</p>
+<p class="precio">$20.000/día</p>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/EXAMPLE2.jpg">
+<h3>Pinza Hioki</h3>
+<p>CM4374</p>
+<p class="precio">$20.000/día</p>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/EXAMPLE3.jpg">
+<h3>Pinza proceso</h3>
+<p>Fluke 773</p>
+<p class="precio">$25.000/día</p>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/EXAMPLE4.jpg">
+<h3>Vibraciones</h3>
+<p>Fluke 805 FC</p>
+<p class="precio">$40.000/día</p>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/EXAMPLE5.jpg">
+<h3>Tester redes</h3>
+<p>Fluke IntelliTone</p>
+<p class="precio">$15.000/día</p>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/EXAMPLE6.jpg">
+<h3>Medidor láser</h3>
+<p>Fluke 424D</p>
+<p class="precio">$15.000/día</p>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/EXAMPLE7.jpg">
+<h3>Cámara térmica</h3>
+<p>Inspección eléctrica</p>
+<p class="precio">$40.000/día</p>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/EXAMPLE8.jpg">
+<h3>Luxómetro</h3>
+<p>UNI-T UT382</p>
+<p class="precio">$10.000/día</p>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/EXAMPLE9.jpg">
+<h3>Multímetro</h3>
+<p>Fluke 175</p>
+<p class="precio">$12.000/día</p>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/EXAMPLE10.jpg">
+<h3>Multímetro industrial</h3>
+<p>UNI-T UT195DS</p>
+<p class="precio">$10.000/día</p>
+</div>
+
+</div>
+
+<!-- BOTÓN WHATSAPP -->
+<a class="whatsapp" href="https://wa.me/569XXXXXXXX" target="_blank">💬</a>
 
 </body>
-
 </html>
